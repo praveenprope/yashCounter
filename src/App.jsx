@@ -131,6 +131,7 @@ const APP = () => {
       fontSize: '1.5em',
       fontWeight: 'bold',
       margin: '20px 0',
+      // lest go
       color: '#333'
     },
   };
