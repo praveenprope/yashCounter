@@ -7,7 +7,7 @@ const Counter = () => {
   const [voicesLoaded, setVoicesLoaded] = useState(false);
 
   // Array of restricted names
-  const restrictedNames = ["praveen", "kapil", "yash"];
+  const restrictedNames = ["praveen", "kapil", "yash", "parveen", "perveen"];
 
   // Load voices once at the start //ok
   useEffect(() => {
@@ -53,7 +53,7 @@ const Counter = () => {
 
     // Speak only on increment
     if (restrictedNames.includes(textValue.toLowerCase())) {
-      speakMessage("Not possible");
+      speakMessage("NOT POSSIBLE");
     } else if (newCounter >= 5) {
       speakMessage(`${textValue} ki gaand maro baar baar`);
     } else {
