@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const Counter = () => {
+const APP = () => {
   const [counter, setCounter] = useState(0);
   const [textValue, setTextValue] = useState('');
   const [message, setMessage] = useState('');
@@ -108,4 +108,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default APP;
