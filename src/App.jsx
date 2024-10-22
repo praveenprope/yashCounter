@@ -7,7 +7,7 @@ const APP = () => {
   const [voicesLoaded, setVoicesLoaded] = useState(false);
 
   // Array of restricted names
-  const restrictedNames = ["praveen", "kapil", "yash", "parveen", "perveen"];
+  const restrictedNames = ["praveen", "kapil", "yash", "parveen", "perveen","ankit"];
 
   // Load voices once at the start
   useEffect(() => {
