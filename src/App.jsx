@@ -138,6 +138,7 @@ const APP = () => {
 
   return (
     <div style={styles.container}>
+    <h1>The Yash Project</h1>
       <input
         type="text"
         value={textValue}
